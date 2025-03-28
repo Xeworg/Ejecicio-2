@@ -32,7 +32,12 @@ h1 {
 }
 
 .seccion-bienvenida {
-    padding: 80px 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     color: #ffffff;
     background-image: url('./img/Designer\ \(2\)\ 1.jpeg');
@@ -70,6 +75,7 @@ h1 {
     margin-bottom: 30px;
     
 }
+
 
 .seccion-footer {
     padding: 20px 0;
