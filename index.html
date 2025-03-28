@@ -12,29 +12,27 @@
 <body>
     <nav class="seccion-bar navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Tienda de Instrumentos Musicales Antiguos</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Productos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
-                </li>
-            </ul>
-        </div>
+        <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Productos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+            </li>
+        </ul>
     </nav>
     <section>
         <div class="seccion-bienvenida container">
             <div class="row">
                 <div class="col-12">
                     <h1>Instrumentos Musicales Antiguos</h1>
-                    <p>Encontrá los instrumentos musicales antiguos que buscas. </p>
+                    <p>Descubre la magia de la música ancestral con nuestra exquisita colección de instrumentos antiguos. Desde laúdes medievales hasta clavicordios barrocos, cada pieza cuenta una historia única. Explora sonidos olvidados y revive la elegancia de épocas pasadas en nuestra tienda especializada.</p>
                 </div>
             </div>
         </div>
@@ -44,11 +42,11 @@
             <!-- el carrusel de bootstrap-->
             <div id="carouselExample" class="carousel carousel-dark slide" data-bs-ride="carousel" >
              <div class="carousel-inner">
-               <div class="carousel-item active">
+               <div class="carousel-item active" data-bs-interval="1000">
                  <div class="container">
-                   <img class="instrumento rounded-circle" src="./img/guitarra.svg" alt="Imagen del cliente 1">
+                   <img class="instrumento rounded-circle" src="./img/Guitarra.jpeg" alt="imagen de la guitarra">
                    <div class="instrumento-texto">
-                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
+                     La guitarra, un instrumento clásico con una rica historia y versatilidad sonora.
                    </div>
                    <div class="instrumento-info">
                      <p class="instrumento">Guitarra</p>
@@ -57,9 +55,9 @@
                </div>
                <div class="carousel-item">
                  <div class="container">
-                   <img class="instrumento rounded-circle" src="./img/violin.svg" alt="Imagen del cliente 2">
+                   <img class="instrumento rounded-circle" src="./img/Violin.jpeg" alt="imagen del violin">
                    <div class="instrumento-texto">
-                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
+                     El violín, un instrumento de cuerda frotada conocido por su sonido expresivo y su papel central en la música clásica.
                    </div>
                    <div class="instrumento-info">
                      <p class="instrumento">Violin</p>
@@ -68,15 +66,38 @@
                </div>
                <div class="carousel-item">
                  <div class="container">
-                   <img class="instrumento rounded-circle" src="./img/piano.svg" alt="Imagen del cliente 3">
+                   <img class="instrumento rounded-circle" src="./img/Flauta.jpeg" alt="imagen del flauta">
                    <div class="instrumento-texto">
-                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.
+                     La flauta, un instrumento de cuerda frotada conocido por su sonido expresivo y su papel central en la música clásica.
                    </div>
                    <div class="instrumento-info">
-                     <p class="instrumento">Piano</p>
+                     <p class="instrumento">Flauta</p>
                    </div>
                  </div>
                </div>
+               <div class="carousel-item">
+                 <div class="container">
+                   <img class="instrumento rounded-circle" src="./img/lira.jpeg" alt="imagen del piano">
+                   <div class="instrumento-texto">
+                     La lira, un instrumento de cuerda frotada conocido por su sonido expresivo y su papel central en la música clásica.
+                   </div>
+                   <div class="instrumento-info">
+                     <p class="instrumento">Lira</p>
+                   </div>
+                 </div>
+               </div>
+               <div class="carousel-item">
+                 <div class="container">
+                   <img class="instrumento rounded-circle" src="./img/Castañuelas.jpeg" alt="imagen del castañuelas">
+                   <div class="instrumento-texto">
+                     La castañuelas, un instrumento de cuerda frotada conocido por su sonido expresivo y su papel central en la música clásica.
+                   </div>
+                   <div class="instrumento-info">
+                     <p class="instrumento">Castañuelas</p>
+                   </div>
+                 </div>
+               </div>
+
              </div>
              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
                <span class="carousel-control-prev-icon" aria-hidden="true"></span>

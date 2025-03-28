@@ -1,16 +1,83 @@
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.navbar{
+ padding: 2rem;
+ background-color: #f8f9fa;
+}
+
+h1 {
+    font-family: 'Times New Roman', serif;
+    font-size: 2rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+
 .seccion-bar {
-    
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .seccion-bienvenida {
-    
-    
+    padding: 80px 0;
+    text-align: center;
+    color: #ffffff;
+    background-image: url('./img/Designer\ \(2\)\ 1.jpeg');
+    background-size: cover;
+    background-position: center;
+    min-height: 450px;
+    position: relative;
+    z-index: 1;
+}
+.seccion-bienvenida::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+.seccion-bienvenida h1,
+.seccion-bienvenida p {
+    position: relative;
+    z-index: 2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .seccion-productos {
+    padding: 40px 0;
+    text-align: center;
+    background-color: #e6d5c3;
+    color: #3e2723;
+    font-family: 'Times New Roman', serif;
+    font-size: 2rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
     
 }
 
 .seccion-footer {
-    
+    padding: 20px 0;
+    text-align: center;
+    background-color: #e6d5c3;
+    color: #3e2723;
+    font-family: 'Times New Roman', serif;
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
 }
