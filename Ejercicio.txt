@@ -1,24 +1,20 @@
 Ejercicio Práctico 1:
 Tienda de Instrumentos Musicales Antiguos
 Descripción General:
-Diseñar una página web promocional para una tienda ficticia dedicada a la venta de instrumentos musicales antiguos. El diseño debe incluir un carrusel de productos destacados, una sección de bienvenida, una galería de productos y una barra de navegación funcional.
+Diseñar una página web promocional para una tienda ficticia dedicada a la venta de instrumentos musicales antiguos. 
+El diseño debe incluir un carrusel de productos destacados, una sección de bienvenida, una galería de productos y una barra de navegación funcional.
+
 Objetivo del Examen:
-•
 Evaluar competencias en maquetación visual, uso de componentes de Bootstrap, y aplicación de estilos personalizados en un diseño temático.
-•
 Incorporar un carrusel interactivo de Bootstrap de forma correcta.
-•
 Garantizar una estructura responsive y estética coherente.
 Requisitos Técnicos:
 1. Estructura general:
-•
 El sitio debe contener una única página (index.html).
-•
 Usar etiquetas semánticas HTML5 (<header>, <main>, <section>, <footer>).
-•
 Utilizar Bootstrap 5 como framework de diseño.
-•
 Puede aplicarse CSS personalizado en un archivo externo (styles.css).
+
 2. Componentes obligatorios:
 Sección
 Requisitos
@@ -32,11 +28,9 @@ Galería de instrumentos
 Al menos 6 instrumentos diferentes, maquetados con el sistema de grillas de Bootstrap (row y col-*), utilizando tarjetas (.card).
 Footer
 Información ficticia de contacto o frase alusiva al arte de los instrumentos antiguos.
+
 3. Diseño y estilo:
-•
 Usar una paleta sobria o clásica (colores tierra, marrones, dorados, crema) que evoquen antigüedad.
-•
 Se espera consistencia visual: tipografía legible, márgenes, imágenes proporcionadas, etc.
-•
 Se deben emplear clases de Bootstrap para espaciado (p-*, m-*), alineación, sombreado y bordes redondeados.
 Estructura:
